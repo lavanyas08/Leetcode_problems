@@ -15,17 +15,4 @@ class Solution {
         
     }
 }
-public class Main{
-    public static void main(String args[]){
-        Scanner in=new Scanner(System.in);
-        int n=in.nextInt();
-        int nums[]=new int[n];
-        for(int i=0;i<n;i++){
-            nums[i]=in.nextInt();
-        }
-        int target=in.nextInt();
-        Solution solution=new Solution();
-        int []res=solution.twoSum(nums,target);
-        System.out.print("["+res[0]+" ,"+res[1]+"]");
-    }
-}
+
